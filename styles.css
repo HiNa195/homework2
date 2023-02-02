@@ -9,10 +9,10 @@ a:link {
     color: red;text-decoration: none;}
 a:visited {
     color: green;}
-a:hover {
-    color: red;text-decoration: none;}
-a:active {
-    color: green;}
+input[type="submit"]:hover {
+    background-color: red;}
+input[type="submit"]:active {
+    background-color: green;}
 ol {
     list-style-type: lower-roman;
     display: inline-block;
