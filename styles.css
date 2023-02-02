@@ -1,0 +1,27 @@
+body {
+    font-family: Calibri;}
+p {
+    font-family: Calibri;}
+h1, h2, h3 {
+    font-family: 'Courier New';
+    color: red;}
+a:link {
+    color: red;text-decoration: none;}
+a:visited {
+    color: green;}
+a:hover {
+    color: red;text-decoration: none;}
+a:active {
+    color: green;}
+ol {
+    list-style-type: lower-roman;
+    display: inline-block;
+    text-align: left;}
+ul {
+    list-style-type: square;
+    display: inline-block;
+    text-align: left;}
+tr:nth-child(even) {
+    background-color: lightgray}
+tr:hover {
+    background-color: lightblue}

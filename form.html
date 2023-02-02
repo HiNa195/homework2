@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div align="center">
+      <h2>MILK TEA BAR</h2>
+      <h4>ORDER</h4>
+    </div>
+    <!-- form -->
+    <form>
+      Name: <input type="text" name="name" required="required"><br>
+      Password: <input type="password" name="pwd"><br><br>
+      <!-- multiple select box -->
+      <b>Drink Choice:</b><br>
+      <select name="tea">
+        <option value="ceylon">Ceylon Milk Tea</option>
+        <option value="jasmine">Jasmine Milk Tea</option>
+        <option value="oolong">Oolong Milk Tea</option>
+        <option value="matcha">Matcha Milk Tea</option>
+        <option value="hokkaido">Hokkaido Milk Tea</option>
+        <option value="lemon">Lemon Jasmine Tea</option>
+        <option value="grapefruit">Grapefruit Jasmine Tea</option>
+        <option value="strawberry">Strawberry Jasmine Tea</option>
+        <option value="mango">Mango Jasmine Tea</option>
+        <option value="orange">Orange Yakult</option>
+      </select><br><br>
+      <!-- checkbox -->
+      <b>Topping(s):</b><br>
+      <input type="checkbox" name="topping" value="boba">Boba<br>
+      <input type="checkbox" name="topping" value="crystal">Crystal Boba<br>
+      <input type="checkbox" name="topping" value="pudding">Pudding<br>
+      <input type="checkbox" name="topping" value="jelly">Jelly<br>
+      <input type="checkbox" name="topping" value="red bean">Red Bean<br><br>
+      <!-- radio buttons -->
+      <b>Payment:</b><br>
+        <input type="radio" name="pmt" value="cash" checked>Cash<br>
+        <input type="radio" name="pmt" value="credit">Credit<br>
+        <input type="radio" name="pmt" value="debit">Debit<br>
+        <input type="radio" name="pmt" value="paypal">PayPal<br><br>
+      <!-- date input -->
+      <input type="date" name="date"/><br><br>
+      <input type="submit" value="Submit">
+    </form>
+    <!-- link to the introductory page -->
+    <br><a href="index.html">Back to Introductory Page</a>
+</body>
+
+</html>
